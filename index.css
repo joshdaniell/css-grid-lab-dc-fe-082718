@@ -9,7 +9,7 @@ body {
   width: 100vw;
   /* your properties here */
   display: grid;
-  grid-template: auto /50px auto 25%;
+  grid-template: [header-start] 1fr [header-end] 1fr /50px auto 25%;
 }
 
 .grid-item {
